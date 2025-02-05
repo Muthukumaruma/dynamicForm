@@ -10,7 +10,7 @@ npm install
 
 ```
 
-developed node version ```bashv22.12.0 ```
+developed node version ```bash v22.12.0 ```
 
 First, run the development server:
 
