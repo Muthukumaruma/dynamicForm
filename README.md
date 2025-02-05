@@ -2,6 +2,16 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+At very firt time install the depanancey in 
+
+```bash
+npm install
+
+
+```
+
+developed node version ```bashv22.12.0 ```
+
 First, run the development server:
 
 ```bash
