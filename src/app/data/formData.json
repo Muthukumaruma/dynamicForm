@@ -1,0 +1,103 @@
+{
+  "questions": {
+    "name": {
+      "type": "text",
+      "label": "Name",
+      "required": true
+    },
+    "address1": {
+      "type": "text",
+      "label": "Address Line 1",
+      "required": true
+    },
+    "address2": {
+      "type": "text",
+      "label": "Address Line 2"
+    },
+    "state": {
+      "type": "text",
+      "label": "State",
+      "required": true
+    },
+    "city": {
+      "type": "text",
+      "label": "City",
+      "required": true
+    },
+    "district": {
+      "type": "text",
+      "label": "District",
+      "required": true
+    },
+    "zipcode": {
+      "type": "number",
+      "label": "Zip code",
+      "required": true
+    },
+    "dateOfBirth": {
+      "type": "date",
+      "label": "Date of Birth",
+      "required": true
+    },
+    "mobile": {
+      "type": "number",
+      "label": "Mobile",
+      "required": true
+    },
+    "email": {
+      "type": "text",
+      "label": "Email",
+      "required": true
+    },
+    "occupation": {
+      "type": "select",
+      "required": true,
+      "label": "Occupation",
+      "options": [
+        "Salaried",
+        "Business",
+        "Student",
+        "Retired"
+      ]
+    },
+    "gender": {
+      "type": "radio",
+      "label": "Select Gender",
+      "required": true,
+      "options": [
+        "Male",
+        "Female"
+      ]
+    },
+    "annualIncome": {
+      "type": "number",
+      "label": "Annual Income",
+      "required": true
+    }
+  },
+  "sections": {
+    "primaryDetails": [
+      "name",
+      "email",
+      "gender",
+      "mobile"
+    ],
+    "otherDetails": [
+      "annualIncome",
+      "occupation"
+    ],
+    "addressDetails": [
+      "address1",
+      "address2",
+      "zipcode",
+      "state",
+      "district",
+      "city"
+    ],
+    "membersAllocation": [
+      "member1Percentage",
+      "member2Percentage",
+      "member3Percentage"
+    ]
+  }
+}
